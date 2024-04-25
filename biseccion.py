@@ -45,5 +45,3 @@ b = float(input("Ingrese el límite superior del intervalo: "))
 
 resultado = bisection_method(funcion, a, b)
 print("\nLa raíz aproximada es:", resultado)
-
-
