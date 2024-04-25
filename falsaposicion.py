@@ -67,7 +67,6 @@ try:
         fila = [f"{iteracion[0]:6d}"] + [f"{x:10.6f}" for x in iteracion[1:]]
         print("\t".join(fila))
 
-    # Mostrar el resultado de la raíz aproximada
     raiz_aproximada = iteraciones[-1][5]
     print(f"\nLa raíz aproximada es: {raiz_aproximada:.6f}")
 
